@@ -21,7 +21,8 @@ constraint sum (i in knapsack_3) (weights[i]) <= capacities[3];
 
 solve maximize sum (i in knapsack_1) (profits[i]) + sum (i in knapsack_2) (profits[i]) + sum (i in knapsack_3) (profits[i]);
 
-output ["knapsack_1 = \(knapsack_1)\n",
+output ["Items count = \(length(ITEM))\n",
+      "knapsack_1 = \(knapsack_1)\n",
       "profit = \(sum (i in knapsack_1) (profits[i]))\n",
       "knapsack_2 = \(knapsack_2)\n",
       "profit = \(sum (i in knapsack_2) (profits[i]))\n",
