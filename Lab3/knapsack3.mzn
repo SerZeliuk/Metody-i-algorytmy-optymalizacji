@@ -1,7 +1,8 @@
 include "disjoint.mzn";
 
 enum ITEM;
-int: capacity;
+
+array of int: capacities;
 
 array[ITEM] of int: profits;
 array[ITEM] of int: weights;
@@ -14,9 +15,9 @@ constraint disjoint(knapsack_1, knapsack_2);
 constraint disjoint(knapsack_1, knapsack_3);
 constraint disjoint(knapsack_2, knapsack_3);
 
-constraint sum (i in knapsack_1) (weights[i]) <= capacity;
-constraint sum (i in knapsack_2) (weights[i]) <= capacity;
-constraint sum (i in knapsack_3) (weights[i]) <= capacity;
+constraint sum (i in knapsack_1) (weights[i]) <= capacities[0];
+constraint sum (i in knapsack_2) (weights[i]) <= capacities[1];
+constraint sum (i in knapsack_3) (weights[i]) <= capacities[2];
 
 solve maximize sum (i in knapsack_1) (profits[i]) + sum (i in knapsack_2) (profits[i]) + sum (i in knapsack_3) (profits[i]);
 
