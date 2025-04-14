@@ -1,0 +1,7 @@
+Items count = 5
+knapsack_1 = {}
+profit = 0
+knapsack_2 = {}
+profit = 0
+knapsack_3 = {to_enum(ITEM,1), to_enum(ITEM,2), to_enum(ITEM,3), to_enum(ITEM,4), to_enum(ITEM,5)}
+profit = 2562

@@ -1,0 +1,7 @@
+Items count = 100
+knapsack_1 = {to_enum(ITEM,1), to_enum(ITEM,18), to_enum(ITEM,19), to_enum(ITEM,20), to_enum(ITEM,23), to_enum(ITEM,30), to_enum(ITEM,32), to_enum(ITEM,38), to_enum(ITEM,39), to_enum(ITEM,40), to_enum(ITEM,43), to_enum(ITEM,46), to_enum(ITEM,60), to_enum(ITEM,75), to_enum(ITEM,76), to_enum(ITEM,80), to_enum(ITEM,98)}
+profit = 10749
+knapsack_2 = {to_enum(ITEM,2), to_enum(ITEM,3), to_enum(ITEM,7), to_enum(ITEM,9), to_enum(ITEM,28), to_enum(ITEM,31), to_enum(ITEM,35), to_enum(ITEM,55), to_enum(ITEM,56), to_enum(ITEM,71), to_enum(ITEM,78), to_enum(ITEM,86), to_enum(ITEM,97), to_enum(ITEM,100)}
+profit = 8117
+knapsack_3 = {to_enum(ITEM,4), to_enum(ITEM,6), to_enum(ITEM,8), to_enum(ITEM,12), to_enum(ITEM,17), to_enum(ITEM,33), to_enum(ITEM,45), to_enum(ITEM,47), to_enum(ITEM,52), to_enum(ITEM,57), to_enum(ITEM,59), to_enum(ITEM,62), to_enum(ITEM,63), to_enum(ITEM,66), to_enum(ITEM,68), to_enum(ITEM,79), to_enum(ITEM,81), to_enum(ITEM,83), to_enum(ITEM,84), to_enum(ITEM,85), to_enum(ITEM,89), to_enum(ITEM,95), to_enum(ITEM,99)}
+profit = 16638
