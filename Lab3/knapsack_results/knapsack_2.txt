@@ -5,3 +5,4 @@ knapsack_2 = {}
 profit = 0
 knapsack_3 = {to_enum(ITEM,1), to_enum(ITEM,2), to_enum(ITEM,3), to_enum(ITEM,4), to_enum(ITEM,5), to_enum(ITEM,6), to_enum(ITEM,7), to_enum(ITEM,8), to_enum(ITEM,9), to_enum(ITEM,10)}
 profit = 5021
+Finished in 128msec.
