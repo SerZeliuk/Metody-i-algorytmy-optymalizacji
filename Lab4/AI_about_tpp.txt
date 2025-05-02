@@ -1,0 +1,24 @@
+The Traveling Purchaser Problem (TPP) is a generalization of the Traveling Salesman Problem (TSP), where a person needs to purchase a list of items at different markets, minimizing total travel and purchase costs. Instead of just finding the shortest route to visit cities, the TPP considers the price and availability of goods at each location. 
+Here's a simplified example:
+Scenario: A buyer needs to purchase three items: a book, a CD, and a DVD. 
+Item Prices: The book is $20 at Market A and $25 at Market B. The CD is $15 at Market A and $18 at Market B. The DVD is $22 at Market A and $20 at Market B.
+Travel Costs: The cost of traveling between Market A and Market B is $5.
+Objective: The buyer wants to find the route (which market to visit first, second, and third) that minimizes the total cost of purchasing the items and traveling between markets.
+Possible Routes and Costs:
+1. Route A: A -> B -> A
+(Market A, then Market B, then back to Market A to buy the remaining item)
+Purchase cost: $20 (book) + $18 (CD) + $22 (DVD) = $60
+Travel cost: $5 (A to B) + $5 (B to A) = $10
+Total cost: $70
+2. Route B: B -> A -> B
+(Market B, then Market A, then back to Market B to buy the remaining item)
+Purchase cost: $25 (book) + $15 (CD) + $20 (DVD) = $60
+Travel cost: $5 (B to A) + $5 (A to B) = $10
+Total cost: $70
+3. Route C: A -> A -> B
+(Buy all items at Market A, then travel to Market B, but this is not a closed tour, so it's not a valid solution for the TSP)
+This is not a valid solution because it doesn't visit all markets.
+4. Route D: B -> B -> A
+(Buy all items at Market B, then travel to Market A, but this is not a closed tour, so it's not a valid solution for the TSP)
+This is not a valid solution because it doesn't visit all markets. 
+In this simplified example, the optimal solution is to visit Market A first and Market B second, returning to Market A. This results in the minimum total cost of $70. The key difference from the standard TSP is that the prices of items vary between locations, making the optimal route dependent on the specific goods being purchased. 
