@@ -1,0 +1,16 @@
+,Model,Equation_Type,Equation,Score
+0,model_1,best,x5*(-0.9899335)*x5 + sin(x0 + x1 + x1) - 3.0889764,2.031153672860529
+1,model_2,best,-x5*x5 - sin((x0 + x1)*(-2.000435))*cos(0.08358824 - x0) - 2.9872622,3.1426673941324834
+2,model_3,best,-x5*x5 - 3.0128005,3.201109097534992
+3,model_1_noisy,best,x5*x5*(-0.9798246) - 3.1116507,2.0182580857510994
+4,model_2_noisy,best,-x5*x5 + sin(x0 + x1 + x1) + sin(x0 + x1 + x1) - 2.844277,3.038596254894669
+5,model_3_noisy,best,-x5*x5 + sin(x0 + x1 + x1) - 2.9413362,3.0966972105054125
+6,model_1_wide_range,best,x5*(-0.9992922)*x5 - 3.028511,3.2730258320316787
+7,model_2_wide_range,best,-x5*x5 - sin(x0 + x1 - (-x1 - 21.968521)) - 2.985921,3.827114566310035
+8,model_3_wide_range,best,-x5*x5 - 2.9763682,3.827114566310035
+9,model_1_noisy_std_dev_2,best,x5*x5*(-0.99853265) - 2.822184,3.074410625117002
+10,model_2_noisy_std_dev_2,best,-x5*x5 - 2.7146783,3.321948036988888
+11,model_3_noisy_std_dev_2,best,-x5*x5 - 2.7146788,3.321948083118081
+12,model_1_noisy_std_dev_5,best,x5*x5*(-1.0226563),2.5148301644820483
+13,model_2_noisy_std_dev_5,best,-x5*x5 - 2.820656,2.5679034060844566
+14,model_3_noisy_std_dev_5,best,-x5*x5 - 2.820656,2.5679034402220244
